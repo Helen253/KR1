@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.CSS">
+</head>
+
+<body>
+
+    <div class="container1" name="container1">
+
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+
+    </div>
+    <div class="buttons">
+        <form action="" name="f1">
+            <input type="button" name="edit" value="edit" class="edit">
+            <input type="button" name="style" value="style" class="style">
+        </form>
+    </div>
+    <div class="container2">
+        <div class="editBlock">
+            <textarea id="saveText"></textarea>
+            <br>
+            <input type="button" name="add" value="add" class="add">
+            <input type="button" name="save" value="save" class="save">
+
+        </div>
+
+        <div class="styleBlock">
+
+            Font Size:
+            <form action="" name="f3">
+                <input type="radio" name="tr" value="12px">12px
+                <input type="radio" name="tr" value="14px">14px
+                <input type="radio" name="tr" value="16px">16px
+                <input type="radio" name="tr" value="18px">18px
+                <input type="radio" name="tr" value="20px">20px
+            </form>
+            <br>
+            Font Family:
+            <form action="" name="f4">
+                <select name="choose">
+                    <option value="Choose option">Choose option</option>
+                    <option value="cursive">cursive</option>
+                    <option value="fantasy">fantasy</option>
+                    <option value="monospace">monospace</option>
+                    <option value="san-serif">san-serif</option>
+                </select>
+            </form>
+            <br>
+            Colors:
+            <form action="" name="f5">
+                <input type="button" name="tc" value="Color of text" class="add1">
+                <input type="button" name="tc" value="Background color" class="add2">
+                <div class="big-box1">
+                    <div class="box" style="background-color: red"></div>
+                    <div class="box" style="background-color: black"></div>
+                    <div class="box" style="background-color: white"></div>
+                    <div class="box" style="background-color: rgb(9, 126, 100)"></div>
+                    <div class="box" style="background-color: gold"></div>
+                    <div class="box" style="background-color: blueviolet"></div>
+                    <div class="box" style="background-color: green"></div>
+                    <div class="box" style="background-color: pink"></div>
+                    <div class="box" style="background-color: aquamarine"></div>
+                </div>
+
+                <div class="big-box2">
+                    <div class="Box" style="background-color: red"></div>
+                    <div class="Box" style="background-color: black"></div>
+                    <div class="Box" style="background-color: white"></div>
+                    <div class="Box" style="background-color: rgb(9, 126, 100)"></div>
+                    <div class="Box" style="background-color: gold"></div>
+                    <div class="Box" style="background-color: blueviolet"></div>
+                    <div class="Box" style="background-color: green"></div>
+                    <div class="Box" style="background-color: pink"></div>
+                    <div class="Box" style="background-color: aquamarine"></div>
+                </div>
+
+
+
+            </form>
+            <br>
+            Style:
+            <form action="" name="f6">
+                <input type="checkbox" name="tb" value="Color of text">Bold text
+                <input type="checkbox" name="it" value="Backgrounf color">Cursive text
+
+            </form>
+        </div>
+
+    </div>
+
+    <div class="container3">
+        <h1> Choose what you want:</h1>
+        <br>
+        <form action="" name="f7">
+            <input type="radio" name="choose1" value="table">table
+            <input type="radio" name="choose2" value="list">list
+        </form>
+
+        <div class="table">
+            <form action="" name="top">
+                Conut TR:
+                <input type="text" placeholder="Conut TR:" class="inputTr">
+                Conut TD:
+                <input type="text" placeholder="Conut TD:" class="inputTd">
+                <h3>Add style to your table:</h3>
+                Width of TD:
+                <input type="text" placeholder=" Width of TD:" class="widthTD">
+                Heigth of TD:
+                <input type="text" placeholder=" Height of TD:" class="heightTD">
+                Width of border:
+                <input type="text" placeholder="Width:" class="widthBD">
+                Type of border:
+                <select name="choose" id="typeBorder">
+                    <option value="solid">solid</option>
+                    <option value="dashed">dashed</option>
+                    <option value="dotted">dotted</option>
+                    <option value="double">double</option>
+                </select>
+                Style of border:
+                <select name="choose" id="styleBorder">
+                    <option value="black">black</option>
+                    <option value="red">red</option>
+                    <option value="blue">blue</option>
+                    <option value="green">green</option>
+                </select>
+                <br>
+                <input type="button" name="createTable" value="Create table" class="createTable">
+            </form>
+
+        </div>
+
+        <div class="list">
+            <form action="" name="bottom">
+                Conut Li:
+                <input type="text" placeholder="Conut Li:" class="listCount">
+                Type of marks:
+                <select name="choose" id="typeMarks">
+                    <option value="circle">circle</option>
+                    <option value="disc">dics</option>
+                    <option value="square">square</option>
+                </select>
+                <br>
+                <input type="button" name="createList" value="Create list" class="createList">
+            </form>
+        </div>
+
+    </div>
+
+    <script src="sript.js"></script>
+</body>
+
+</html>
